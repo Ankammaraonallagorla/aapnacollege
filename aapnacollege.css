@@ -1,0 +1,104 @@
+#navbar1{
+
+    height: 60px;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(244, 240, 240);
+    
+}
+
+a{
+
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+    
+}
+
+#logo{
+
+    font-size:25px;
+    color: #f08804;
+}
+
+#search{
+    margin-right: none;
+}
+
+#submit{
+
+    color: white;
+    background-color: #f08804;
+
+}
+
+#parent{
+
+    padding-left: 40%;
+
+}
+
+
+#child{
+    
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(195, 167, 167);
+    line-height: 3;
+    
+}
+
+#superchild{
+
+    line-height: 1;
+    text-align: center;
+    padding-left: 20px;
+}
+
+#username{
+
+    background-color: white;
+    width:fit-content;
+    padding-left: 20px;
+    border-radius: 6px;
+    padding: 2%  2% 0% 2%;
+    margin-bottom: 6%;
+    border-style :double ;
+    border-width: 2px;
+
+    
+}
+
+#password{
+
+    background-color: white;
+    width:fit-content;
+    padding-left: 20px;
+    border-radius: 6px;
+    padding: 2%  2% 0% 2%;
+    margin-bottom: 6%;
+    border-style :double ;
+    border-width: 2px;
+
+}
+
+.clear{
+
+    margin-right: 66px;
+}
+
+.submit{
+
+    background-color: rgb(111, 170, 243);
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 4px 3px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;;
+}
+
+.submit:hover{
+
+    background-color: rgb(82, 130, 188);
+    opacity:70%;
+}
